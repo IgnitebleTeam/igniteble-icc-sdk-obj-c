@@ -1,1 +1,0 @@
-../../../../IgnitebleIccSDK/IgnitebleIccSDK.framework/Versions/A/Headers/IgnitebleIccSDK.h
