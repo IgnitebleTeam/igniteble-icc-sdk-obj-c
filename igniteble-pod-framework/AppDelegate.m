@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  igniteble-pod-framework
 //
-//  Created by saco on 9/1/17.
-//  Copyright © 2017 Lure. All rights reserved.
+//  Created by Sarkis Kaloustian on 9/1/17.
+//  Copyright © 2017 Igniteble LLC. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -25,8 +25,9 @@
     // Igniteble
     
     self.notificationsManager = [NotificationsManager sharedNotificationclient];
-    self.notificationsManager.companyId = @"00000000-0000-0000-0000-000000000003";
+    self.notificationsManager.companyId = @"{companyId}";
     [self.notificationsManager enableNotificationsForDeviceIdentifier];
+    [self.notificationsManager setYourMemberId:@"{memberId}"];
     [self.notificationsManager updateMonitoringIds];
 
     

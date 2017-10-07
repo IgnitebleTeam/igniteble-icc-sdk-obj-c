@@ -1,0 +1,1 @@
+../../../../IgnitebleIccSDK/IgnitebleIccSDK.framework/Versions/A/Headers/NotificationsManager.h

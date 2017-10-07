@@ -15,7 +15,9 @@ Give examples
 ### Installing:
 
 Download the project and double click on the igniteble-pod-framework.xcworkspace.
-Do a pod update to pull the latest version of IgniteIccSDK
+
+then command line:
+pod install
 
 ```
 Give the example
